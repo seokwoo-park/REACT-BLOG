@@ -1,11 +1,11 @@
-import { TopBar, Home,  } from './components/index.js'
+import { TopBar, Home, Single, Write  } from './components/index.js'
 
 
 function App() {
   return (
     <>
-    <TopBar/>
-    <Home/>
+      <TopBar/>
+      <Write/>
     </>
   );
 }

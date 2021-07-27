@@ -1,9 +1,16 @@
-import './posts.css'
+import './posts.css';
+import { Post } from '../index';
+
 
 export default function Posts() {
     return (
         <div className="posts">
-            posts
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
         </div>
     )
 }
